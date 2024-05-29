@@ -1,0 +1,20 @@
+
+services:
+  backend:
+    restart: on-failure
+    build: ./
+    ports:
+      - "5001:80"
+#    volumes:
+#      - ./:/code/helloworld/
+#      - /code/helloworld
+#    env_file:
+#      - ./env/backend.env
+
+volumes:
+  code:
+
+
+
+
+
