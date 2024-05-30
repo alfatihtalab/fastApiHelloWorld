@@ -4,7 +4,7 @@ services:
     restart: on-failure
     build: ./
     ports:
-      - "8080:8000"
+      - "80:8081"
 #    volumes:
 #      - ./:/code/helloworld/
 #      - /code/helloworld
